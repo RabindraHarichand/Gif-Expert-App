@@ -8,7 +8,7 @@ describe("Testing getGifs.js", () => {
     expect(gifs[0]).toEqual({
       id: expect.any(String),
       title: expect.any(String),
-      url: expect.any(String),
+      url: expect.any(Object),
     });
   });
 });
