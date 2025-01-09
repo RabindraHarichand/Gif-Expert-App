@@ -38,7 +38,6 @@ describe("Testing AddCategory component", () => {
 
     fireEvent.submit(form);
 
-    screen.debug();
     expect(onNewCategory).not.toHaveBeenCalled();
   });
 });

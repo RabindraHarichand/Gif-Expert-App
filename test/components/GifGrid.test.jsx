@@ -26,7 +26,7 @@ describe("Testing GifGrid component", () => {
         url: "https://localhost/saitama.jpg",
       },
       {
-        id: "ABC",
+        id: "PTC",
         title: "Goku",
         url: "https://localhost/goku.jpg",
       },
